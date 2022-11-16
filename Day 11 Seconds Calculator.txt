@@ -1,0 +1,13 @@
+#How many seconds are in a year
+second = 1
+minute = 60 * second
+hour = 60 * minute
+day = 24 * hour
+year = 365 * day
+leapYear = 366 * day
+
+numOfYears = int(input("Input how many days have this year: "))
+if numOfYears == 366:
+  print("This year have",leapYear,"seconds")
+else:
+  print("This year have",year,"seconds")

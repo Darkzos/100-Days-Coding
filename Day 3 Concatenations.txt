@@ -1,0 +1,13 @@
+print("=== Recipe Maker ===")
+print("""You'll be asked a bunch of questions
+then we'll make you up an amazing
+song, totally copyright free 😭""")
+print()
+food = input("Name a food: ")
+plant = input("Name a plant: ")
+cooking = input("Name the method: ")
+burned = input("What word describes a burned food?: ")
+diy = input("Name a kitchen item: ")
+print()
+print("My food will be", food)
+print("It has", plant, "and is cooked in", cooking, "If you overcook it it will be", burned, "you will need a", diy, "to serve it.")

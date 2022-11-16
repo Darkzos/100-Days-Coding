@@ -1,0 +1,20 @@
+#Grade Generator
+
+testName = input("Input the name of the test: ")
+maxScore = int(input("Input the max Score possible on this test: "))
+score = int(input("Input the score that you got in the test: "))
+
+avg = (score / maxScore)*100
+
+if avg <= 100 and avg >= 90:
+  print("Your Grade is A+")
+elif avg <= 89 and avg >= 80:
+  print("Your Grade is A")
+elif avg <= 79 and avg >= 70:
+  print("Your Grade is B")
+elif avg <= 69 and avg >= 60:
+  print("Your Grade is C")
+elif avg <= 59 and avg >= 50:
+  print("Your Grade is D")
+elif avg < 50:
+  print("Your Grade is U")
