@@ -1,0 +1,12 @@
+print("Fill in the blank lyrics!")
+attempts = 0
+while True:
+  x = input("Never going to ______ you up.")
+  while x != "give":
+    attempts +=1
+    print("Nope, try again")
+    break
+  else:
+    attempts +=1
+    print("Well done! It only took you", attempts,"attempts")
+    exit()

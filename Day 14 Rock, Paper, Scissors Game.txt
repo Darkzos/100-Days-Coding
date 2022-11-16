@@ -1,0 +1,32 @@
+from getpass import getpass as input
+p1 = input("Player one input your choice between\n 1.Scissors\t2.Rock\t3.Paper\n")
+p2 = input("Player two input your choice between\n 1.Scissors\t2.Rock\t3.Paper\n")
+
+if p1 == '1' or p1 == '2' or p1 == '3':
+  print("choice made")
+else:
+  print("Choose a valid option")
+  
+if p2 == '1' or p2 == '2' or p2 == '3':
+  print("choice made")
+else:
+  print("Choose a valid option")
+  
+if p1 == '1' and p2 == '1':
+  print("Draw")
+elif p1 == '1' and p2 == '2':
+  print("Player two wins")
+elif p1 == '1' and p2 == '3':
+  print("Player one wins")  
+elif p1 == '2' and p2 == '1':
+  print("Player one wins")
+elif p1 == '2' and p2 == '2':
+  print("Draw")
+elif p1 == '2' and p2 == '3':
+  print("Player two wins")
+elif p1 == '3' and p2 == '1':
+  print("Player two wins")
+elif p1 == '3' and p2 == '2':
+  print("Player one wins")
+elif p1 == '3' and p2 == '3':
+  print("Draw")
